@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to
+privileged Google applications in GMS devices.
+-->
+<permissions>
+    <privapp-permissions package="com.google.android.apps.carrier.carrierwifi">
+        <permission name="android.permission.NETWORK_CARRIER_PROVISIONING"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>
