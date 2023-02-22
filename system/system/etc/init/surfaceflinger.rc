@@ -1,0 +1,17 @@
+service surfaceflinger /system/bin/surfaceflinger
+    class core animation
+    user system
+    group graphics drmrpc readproc
+    capabilities SYS_NICE
+    onrestart restart --only-if-running zygote
+    task_profiles HighPerformance
+    socket pdx/system/vr/display/client     stream 0666 system graphics u:object_r:pdx_display_client_endpoint_socket:s0
+    socket pdx/system/vr/display/manager    stream 0666 system graphics u:object_r:pdx_display_manager_endpoint_socket:s0
+    socket pdx/system/vr/display/vsync      stream 0666 system graphics u:object_r:pdx_display_vsync_endpoint_socket:s0
+
+on property:vendor.debug.sf.restart=1
+     restart surfaceflinger
+
+on property:init.svc.zygote=restarting && property:debug.sf.toomanylayers=1
+     restart surfaceflinger
+     setprop debug.sf.toomanylayers "0"

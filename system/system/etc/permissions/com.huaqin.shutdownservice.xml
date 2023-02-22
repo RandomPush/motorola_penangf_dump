@@ -1,0 +1,5 @@
+<permissions>
+    <privapp-permissions package="com.huaqin.shutdownservice">
+        <permission name="android.permission.REBOOT" />
+    </privapp-permissions>
+</permissions>
