@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <app-link package="com.orange.update" />
+    <allow-in-power-save package="com.orange.update"/>
+</config>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><permissions>
+  <privapp-permissions package="com.inmobi.installer">
+    <permission name="android.permission.INTERNET"/>
+    <permission name="android.permission.ACCESS_INTERNET_STATE"/>
+    <permission name="android.permission.INSTALL_PACKAGES"/>
+    <permission name="android.permission.INSTALL_SHORTCUT"/>
+  </privapp-permissions>
+</permissions>
