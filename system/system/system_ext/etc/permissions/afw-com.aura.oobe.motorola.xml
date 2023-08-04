@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.aura.oobe.motorola"/>
+    <disallowed-managed-profile package="com.aura.oobe.motorola"/>
+    <disallowed-managed-user    package="com.aura.oobe.motorola"/>
+</config>

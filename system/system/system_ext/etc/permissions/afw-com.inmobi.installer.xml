@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.inmobi.installer"/>
+    <disallowed-managed-profile package="com.inmobi.installer"/>
+    <disallowed-managed-user    package="com.inmobi.installer"/>
+</config>

@@ -1,0 +1,64 @@
+# Setting ro.csc.* props for Spotify PAI app on every boot cycle and FDR.
+# The ro.csc.* props are set by reading the values from persist.* props only when the props are ready.
+on property:persist.app.spotify.music.partnerid=*
+  setprop ro.csc.spotify.music.partnerid ${persist.app.spotify.music.partnerid}
+
+on property:persist.app.spotify.music.referrerid=*
+  setprop ro.csc.spotify.music.referrerid ${persist.app.spotify.music.referrerid}
+
+on property:persist.app.booking.trackingid=*
+  setprop ro.trackingId.booking ${persist.app.booking.trackingid}
+
+on property:persist.app.trackingId.booking=*
+  setprop ro.trackingId.booking ${persist.app.trackingId.booking}
+
+on property:persist.app.settings.channel_id=tefbr
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=tefmx
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=tefar
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=tefcl
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=tefpe
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=tefco
+  setprop  ro.csc.amazon.partnerid telefonica
+
+on property:persist.app.settings.channel_id=att
+  setprop  ro.csc.amazon.partnerid att
+
+on property:persist.app.settings.channel_id=cricket
+  setprop  ro.csc.amazon.partnerid cricket
+
+on property:persist.app.settings.channel_id=sprint
+  setprop  ro.csc.amazon.partnerid sprint
+
+on property:persist.app.settings.channel_id=tmo
+  setprop  ro.csc.amazon.partnerid tmobile
+
+on property:persist.app.settings.channel_id=usc
+  setprop  ro.csc.amazon.partnerid uscc
+
+on property:persist.app.settings.channel_id=vzw
+  setprop  ro.csc.amazon.partnerid verizon
+
+on property:persist.app.settings.channel_id=rcica
+  setprop  ro.csc.amazon.partnerid rogers
+
+on property:persist.app.settings.channel_id=tkpca
+  setprop  ro.csc.amazon.partnerid telus
+
+on property:persist.app.settings.channel_id=attmx
+  setprop  ro.csc.amazon.partnerid attmx
+
+on property:persist.app.settings.channel_id=windit
+  setprop  ro.csc.amazon.partnerid 3it
+
+on property:persist.app.settings.channel_id=timit
+  setprop  ro.csc.amazon.partnerid timit

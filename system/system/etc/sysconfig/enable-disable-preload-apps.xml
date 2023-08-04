@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <preload-package-disable-enable package="com.facebook.services" channel="all" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.facebook.appmanager" channel="all" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.facebook.system" channel="all" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.instagram.android" channel="amxbr,amxcl,amxco,amxla,amxmx,amxpe" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.telcel.contenedor" channel="amxmx" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.claroColombia.contenedor" channel="amxla,amxcl,amxco,amxpe" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.claroColombia.contenedor_stub" channel="amxbr" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.aura.oobe.motorola" channel="retla,retar,retbr,retcl,openmx,retpe,reteu,retgb,retmea,retru,teleu,retca,retus,retapac,retid,retin,retjio,retjp,retkr,retsea" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.amazon.appmanager" channel="att,cricket,sprint,tmo,usc,vzw,rcica,tkpca,tefbr,tefmx,tefar,tefcl,tefpe,tefco,attmx,windit,timit" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.glance.lockscreenM" channel="retin,retjio,retbr,amxbr,tefbr,timbr" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="co.sitic.pp" channel="amxcl,amxco,amxla,amxmx,amxpe" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="744-02,748-10"/>
+    <!--BEGIN HUAQIN,<CHENHENGRUI>,<2023-04-26>,<EKPENANG4G-10683>,[Task] Integrate/Update Digital Turbine for Motorola v.9.3.084-->
+    <preload-package-disable-enable package="com.dti.motorola" channel="retbr,retcl,retla,openmx,retpe,retar,opencl,openla,openpe,attmx,tefar,tefbr,tefcl,tefco,tefla,tefmx,tefpe,retin,retjio,tigca" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <!--End,<EKPENANG4G-10683>-->
+    <preload-package-enable-disable package="com.android.fmradio" channel="null" sub_channel="null" mccmnc="null"  mcc="208,647,222,206,268" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.orange.aura.oobe" channel="all" sub_channel="null" mccmnc="208-01,226-10,214-03,260-03,206-10,231-01,270-99"  mcc="null" dismccmnc="null"/>
+    <preload-package-disable-enable package="com.orange.update" channel="all" sub_channel="null" mccmnc="208-01,226-10,214-03,260-03,206-10,231-01,270-99"  mcc="null" dismccmnc="null"/>
+    <!--BEGIN HUAQIN,<CHENHENGRUI>,<2023-05-15>,<EKPENAN4GP-1585>,[Task] AVISO2023_02 NEW AP_Apps DT version 9.2.054-6029 -->
+    <preload-package-disable-enable package="com.dti.amx" channel="amxcl,amxco,amxpe,amxla,amxmx,amxbr" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <!--EKPENAN4GP-1585 end -->
+    <!--BEGIN HUAQIN,<CHENHENGRUI>,<2023-06-01>,<EKPENANG4G-11000>,[Task] integrate InMobi Installer globally, for all products -->
+    <preload-package-disable-enable package="com.inmobi.installer" channel="all" sub_channel="null" mccmnc="null"  mcc="null" dismccmnc="null"/>
+    <!--EKPENANG4G-11000 end -->
+</config>

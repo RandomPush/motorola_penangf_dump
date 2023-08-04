@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.paks">
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="com.motorola.permission.ACCESS_PRODUCT_PERSIST"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <!--BEGIN HUAQIN,<CHENHENGRUI>,<2023-06-02>,<EKPENANG4G-10974>,[Task] Refrain from checking lock screen message limit when using resources -->
+        <permission name="com.motorola.permission.WRITE_SECURE_SETTINGS"/>
+        <!--EKPENANG4G-10974 end -->
+    </privapp-permissions>
+</permissions>

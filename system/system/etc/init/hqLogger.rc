@@ -1,0 +1,7 @@
+service bugreport_hq /system/bin/bugreportz
+    class main
+    disabled
+    oneshot
+
+on property:sys.start.bugreport=1
+    start bugreport_hq
