@@ -1,0 +1,9 @@
+ro.com.google.gmsversion=13_202211
+ro.config.alarm_alert=Helium.ogg
+ro.config.notification_sound=Hello.ogg
+ro.config.ringtone=Moto.ogg
+ro.opa.eligible_device=true
+ro.product.ab_ota_partitions=boot,system,vendor
+ro.product.build.version.sub=64
+ro.setupwizard.rotation_locked=true
+setupwizard.theme=glif_v3_light
